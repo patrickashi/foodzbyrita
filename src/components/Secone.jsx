@@ -5,6 +5,10 @@ import { MdArrowOutward } from "react-icons/md";
 import "@fontsource/luckiest-guy";  // Defaults to weight 400
 import "@fontsource/bangers"; 
 import food1 from "../assets/food1.jpg";
+import { GiTomato } from "react-icons/gi";
+import { GiCabbage } from "react-icons/gi";
+import rice1 from "../assets/rice1.jpg";
+
 
 
 const Secone = () => {
@@ -23,6 +27,11 @@ const Secone = () => {
                 <p className={`my-6 text-xl mt-10 md:mt-4 ${showContent ? 'p-slide-in' : 'hidden-initially'}`}>better food, better mood</p>
 
                 <p className=' text-[#059669] font-semibold'>INGREDIENTS</p>
+                <ul className='flex gap-2'>
+                    <li><GiTomato className='text-red-500'/></li>
+                    <li><GiCabbage className='text-gray-400' /></li>
+                    <li><div className='w-4  bg-[#fb923c] rounded-full text-white text-xs'>+3</div></li>
+                </ul>
 
                 <Link to="/Quotep">
                     <button className="bg-[#fb923c] text-white px-4 py-4 rounded-md mt-20 md:mt-10 flex">ORDER NOW</button>
@@ -31,7 +40,7 @@ const Secone = () => {
             </div>
 
             <div className='flex py-10 md:py-20 px-2 md:px-20'>
-                <img src={food1} className='flex justify-center mt-10 ml-0 md:ml-16 w-full md:w-80 h-100 rounded-md' alt="bg" />
+                <img src={rice1} className='flex justify-center mt-10 ml-0 md:ml-16 w-full md:w-80 h-100 rounded-md' alt="bg" />
             </div>
         </div>
     )

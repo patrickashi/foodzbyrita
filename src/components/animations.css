@@ -67,3 +67,9 @@
 }
 
 
+/* Change color of the next and prev navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #9d174d; /* Change to your desired color */
+}
+
