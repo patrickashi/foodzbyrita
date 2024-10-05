@@ -33,9 +33,9 @@ const Secone = () => {
                     <li><div className='w-4  bg-[#fb923c] rounded-full text-white text-xs'>+3</div></li>
                 </ul>
 
-                <Link to="/Quotep">
+                <a href='https://wa.me/2348142810028'>
                     <button className="bg-[#fb923c] text-white px-4 py-4 rounded-md mt-20 md:mt-10 flex">ORDER NOW</button>
-                </Link>
+                </a>
                 
             </div>
 
