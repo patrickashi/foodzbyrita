@@ -9,6 +9,8 @@ import { GiTomato } from "react-icons/gi";
 import { GiCabbage } from "react-icons/gi";
 import rice1 from "../assets/rice1.jpg";
 
+import '@fontsource/poppins';
+
 
 
 const Secone = () => {
@@ -19,7 +21,7 @@ const Secone = () => {
     }, []);
 
     return (
-        <div className="h-full flex flex-col md:flex-row w-full  text-black pb-10">
+        <div className="h-full flex flex-col md:flex-row w-full justify-center  text-black pb-10">
             <div className="pt-40 px-2 md:px-10 lg:px-16 ">
                 <h2 className={`text-4xl mb-4 md:text-6xl font-luckiest ${showContent ? 'h2-slide-in' : 'hidden-initially'}`}>Delicious & High </h2>
                 <h2 className={`text-4xl mb-4 md:text-6xl font-luckiest ${showContent ? 'h2-slide-in' : 'hidden-initially'}`}>Quality Food</h2>

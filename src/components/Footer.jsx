@@ -20,36 +20,31 @@ const Footer = () => {
                 <div className="text-center">
                     <h1 className=" mb-4 font-luckiest text-[#fb923c] text-lg">INFORMATION</h1>
                     <p className="">Ikeja, Lagos, Nigeria</p>
-                    <p className="">Call us now: +234 900 000 0000</p>
-                    <p>Email: foodz_by_rita@gmail.com</p>
+                    <p className="">Call us now: +234 814 265 0809</p>
+                    <p>Email: grabella1527@gmail.com</p>
                 </div>
                
                 <div className="text-center">
                     <div className="flex justify-center mb-2">
                         <img src={foodz_by_rita_logo} className="w-32 rounded-md" alt="logo" />
                     </div>
-                    <p className="mb-2">Feel free to discus your Budjet</p>
+                    <p className="mb-2">Feel free to discuss your Budjet</p>
                     <ul className="flex justify-center gap-4">
                         <li className="border-r pr-2">
-                            <a href="http://wa.me/">
+                            <a href="https://wa.me/2348142810028">
                                 <FaWhatsapp className="mt-1 mr-1 text-white" />
                             </a>
                         </li>
-                        <li className="border-r pr-2">
-                            <a href="https://www.instagram.com/">
+                        <li className="">
+                            <a href="https://www.instagram.com/foodz_by_rita?igsh=ZGUzMzM3NWJiOQ==">
                                 <FaInstagram className="mt-1 mr-1 text-white"/>
                             </a>
                         </li>
-                        <li className="border-r pr-2">
+                        {/* <li className="border-r pr-2">
                             <a href="https://www.TikTok.com/">
                                 <FaTiktok className="mt-1 mr-1 text-white"/>
                             </a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/">
-                                <FaYoutube className="mt-1 mr-1 text-white"/>
-                            </a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
                 <div className="text-center">

@@ -43,16 +43,16 @@ const  Navbar = ({ handleContactClick, location }) => {
             <div>
                 <ul className="hidden mobile:hidden  md:flex lg:flex xl-flex 2xl:flex text-black mx-auto  ">
                     <li className="p-4 hover:underline hover:cursor-pointer">
-                        <Link to="/Aboutusp">Home</Link>
+                        <Link to="/">Home</Link>
                     </li>
                     <li className="p-4 hover:underline hover:cursor-pointer">
-                        <Link to="/Projectsp">Shop</Link>
+                        <Link to="/Aboutusp">About us</Link>
                     </li>
                     <li className="p-4 hover:underline hover:cursor-pointer">
-                        <Link to="/Servicesp">Contact us</Link>
+                        <Link to="/">Contact us</Link>
                     </li>
                     <li className="flex p-4 hover:underline hover:cursor-pointer bg-[#fb923c] text-white rounded-lg" >
-                        <Link to="/Quotep" className="flex ">
+                        <Link to="/" className="flex ">
                             <div>RESERVATION </div>
                             
                         </Link>
@@ -80,19 +80,19 @@ const  Navbar = ({ handleContactClick, location }) => {
                     <li className="" onClick={() => { handleLinkClick() } }>
                         <div className="flex align-middle">
                             {/* <TiGroup className="mt-1 mr-1 text-slate-800 "/> */}
-                            <Link to="/Aboutusp">Home</Link> 
+                            <Link to="/">Home</Link> 
                         </div>
                     </li>
                     <li className="" onClick={() => { handleLinkClick() } }>
                         <div className="flex align-middle">
                             {/* <GrProjects className="mt-1 mr-1 text-emerald-500 "/> */}
-                            <Link to="/Projectsp">Shop</Link>
+                            <Link to="/Aboutusp">About us</Link>
                         </div>
                     </li>
                     <li className="" onClick={() => { handleLinkClick() } }>
                         <div className="flex align-middle">
                             {/* <FaRegFileCode className="mt-1 mr-1 text-purple-800 "/> */}
-                            <Link to="/Servicesp">Contact us</Link>
+                            <Link to="/">Contact us</Link>
                         </div>
                     </li>
                     <li >
@@ -107,25 +107,21 @@ const  Navbar = ({ handleContactClick, location }) => {
 
                 <div className="flex gap-10 mb-auto ml-2 items-bottom mt-10">
                     <div>
-                        <a href="http://wa.me/">
+                        <a href="https://wa.me/2348142810028">
                             <FaWhatsapp className="mt-1 mr-1 text-emerald-700" size={20} />
                         </a>
                     </div>
                     <div>
-                        <a href="https://www.instagram.com/">
+                        <a href="https://www.instagram.com/foodz_by_rita?igsh=ZGUzMzM3NWJiOQ==">
                             <FaInstagram className="mt-1 mr-1 text-red-600" size={20}/>
                         </a>
                     </div>
-                    <div>
+                    {/* <div>
                         <a href="https://www.TikTok.com/">
                             <FaTiktok className="mt-1 mr-1" size={20}/>
                         </a>
-                    </div>
-                    <div>
-                        <a href="https://www.youtube.com/">
-                            <FaYoutube className="mt-1 mr-1 text-red-600" size={20}/>
-                        </a>
-                    </div>
+                    </div> */}
+                   
                 </div>
 
                
