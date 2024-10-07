@@ -22,10 +22,10 @@ const Sectwo = () => {
                 </div>
                 <div className="w-full md:w-[700px]">
                     <a className="text-md bg-[#9d174d] text-white px-2 py-2 rounded-md font-luckiest">About us</a>
-                    <h2
+                    {/* <h2
                      ref={ref}
-                     className="transition-opacity duration-1000 ease-in-out text-4xl my-6 font-luckiest">Tasty Macroni Unmatched Flavor</h2>
-                    <p>Foodz by Rita is a professional full service catering company. We are dedicated to innovative, environmentally-friendly, fresh, healthy and most of all, delicious flavors of the culinary world! We have over 10 years of combined kitchen and catering experience among our staff.
+                     className="transition-opacity duration-1000 ease-in-out text-4xl my-6 font-luckiest">Tasty Macroni Unmatched Flavor</h2> */}
+                    <p className="mt-6">Foodz by Rita is a professional full service catering company. We are dedicated to innovative, environmentally-friendly, fresh, healthy and most of all, delicious flavors of the culinary world! We have over 10 years of combined kitchen and catering experience among our staff.
 
                     </p>
                     <Link to="/Aboutusp"> 

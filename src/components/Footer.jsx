@@ -28,7 +28,7 @@ const Footer = () => {
                     <div className="flex justify-center mb-2">
                         <img src={foodz_by_rita_logo} className="w-32 rounded-md" alt="logo" />
                     </div>
-                    <p className="mb-2">Feel free to discuss your Budjet</p>
+                    <p className="mb-2">Feel free to discuss your Budget</p>
                     <ul className="flex justify-center gap-4">
                         <li className="border-r pr-2">
                             <a href="https://wa.me/2348142810028">
@@ -49,9 +49,8 @@ const Footer = () => {
                 </div>
                 <div className="text-center">
                     <h1 className=" mb-4 font-luckiest text-[#fb923c] text-lg">WORKING HOURS</h1>
-                    <p>Monday - Friday 08:00 am to 12:00 pm</p>
-                    <p>Saturday 10:00 am to 03:00 pm</p>
-                    <p>Sunday 12:00 pm to 05:00 pm</p>
+                    <p>We are open 24/7</p>
+                    
                 </div>
             </div>
 

@@ -13,13 +13,13 @@ const Testimonies = () => {
     {
     //   img: okraandfish,
       name: 'Julie',
-      description: "I just wanted to thank you so much for everything. I have not gotten so many compliments on the food. So I just wanted to tell you that a lot of people took your information and I hope you get some business from it. I just wanted to thank you my daughter thought it was the best thing she's ever tasted. I wanted to personally say thank you! The Staff was great they did everything perfectly and of course I will get in touch with you again whenever I need you so again thank you so much and have a great day",
+      description: "I just wanted to thank you so much for everything. I have gotten so many compliments on the food. So I just wanted to tell you that a lot of people took your information and I hope you get some business from it. I just wanted to thank you my daughter thought it was the best thing she's ever tasted. I wanted to personally say thank you! The Staff was great they did everything perfectly and of course I will get in touch with you again whenever I need you so again thank you so much and have a great day",
 
     },
     {
     //   img: ohasoup,
       name: 'Mr Shina',
-      description: "1. Food was amazing – no disappointments 2. Presentation – perfect as usual 3. Food Quality just as good 4. Customer service perfect Honestly there are no complaints, we continue love using your services, food is amazing. ",
+      description: "1. Food was amazing – no disappointments 2. Presentation – perfect as usual 3. Food Quality just as good 4. Customer service perfect Honestly there are no complaints, we love using your services, food is amazing. ",
 
      
     },
