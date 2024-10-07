@@ -11,7 +11,7 @@ const Aboutusp = () => {
                 <p className="text-5xl font-luckiest text-[#30ed5fe6]">About us</p>
             </div>
 
-            <div className="group flex flex-col md:flex-row mx-2 md:mx-10 lg:mx-16 px-2 md:px-4 lg:px-6 py-10 rounded-lg bg-[#9d174d] hover:bg-black mt-10 mb-4 text-white text-sm">
+            <div className=" flex flex-col md:flex-row mx-2 md:mx-10 lg:mx-16 px-2 md:px-4 lg:px-6 py-10 rounded-lg bg-[#010101ed] mt-10 mb-4 text-white text-sm">
                     <div>
                         <p> 
                             Foodz by Rita is a professional full service catering company. We are dedicated to innovative,
@@ -35,7 +35,7 @@ const Aboutusp = () => {
                         <p className="">
                             It's extremely important to us that our clients know whom they're doing business with. Once you take the time to find out what we're all about, we're confident you'll like what you see.
                         </p>
-                        <p className="font-luckiest text-2xl text-[#fb923c] mt-6 mb-2 group-hover:text-yellow-600 duration-200">
+                        <p className="font-luckiest text-2xl text-yellow-600 mt-6 mb-2">
                             OUR CORE COMPETENCY
                         </p>
                         <p>
